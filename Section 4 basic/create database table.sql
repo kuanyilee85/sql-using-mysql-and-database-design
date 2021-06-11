@@ -3,6 +3,10 @@ CREATE DATABASE coffee_store;
 
 USE coffee_store;
 
+DROP TABLE products;
+DROP TABLE customers;
+DROP TABLE orders;
+
 CREATE TABLE products (
 
 	id INT AUTO_INCREMENT PRIMARY KEY,
