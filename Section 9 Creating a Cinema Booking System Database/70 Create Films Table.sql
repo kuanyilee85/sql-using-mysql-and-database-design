@@ -8,7 +8,7 @@
 	
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(45) NOT NULL UNIQUE,
-    length_name INT NOT NULL
+    length_min INT NOT NULL
  );
  
  SHOW TABLES;
